@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+body {
+	background-color: purple;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#top-container {
+	display: flex;
+	align-items: end;
+	align-content: center;
+	justify-content: center;
+}
+
+#changeBackground {
+	background-image: url("bgicon.png");
+	background-size: 25px 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-width: 0px;
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+}
+
+#titleButton {
+	background-image: url("edit.png");
+	background-color: white;
+	border-width: 0px;
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-size: 35px 35px;
+	margin: 15px;
+	margin-bottom: 80px;
+}
+
+#titleButton:hover {
+	background-color: gray;
+}
+
+#changeBackground:hover {
+	background-color: gray;
+}
+
+#title {
+	color: white;
+	font-family: 'Joan';
+	font-weight: bolder;
+	font-size: 5.75rem;
+	margin-top: 10rem;
+	
+}
+
+#numbers {
+	display: flex;
+	justify-content: center;
+}
+
+.number {
+	width: 170px;
+	margin-top: -20px;
+	color: white;
+	font-family: 'Joan';
+	font-size: 5rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+#words {
+	display: flex;
+	justify-content: center;
+}
+
+.word {
+	color: white;
+	width: 170px;
+	margin-top: 0px;
+	font-family: 'Joan';
+	font-size: 2rem;
+	display: flex;
+	justify-content: space-around;
+}
