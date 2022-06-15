@@ -6,4 +6,4 @@ This was a simple but fun project, and taught me a lot about the Date objects in
 
 Enjoy!
 
-0shaurya.github.io/countdown
+[0shaurya.github.io/countdown](0shaurya.github.io/countdown)
