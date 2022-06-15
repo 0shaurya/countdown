@@ -5,3 +5,5 @@ Hello! This simple website will count down to a specific time, configurable by t
 This was a simple but fun project, and taught me a lot about the Date objects in javascript. Adjusting for time zone differences was tricky, but I got it in the end.
 
 Enjoy!
+
+0shaurya.github.io/countdown
