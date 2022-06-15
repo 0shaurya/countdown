@@ -1,9 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 body {
-	background-color: purple;
+	background-color: black;
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+
+#inputsContainer {
+	margin-top: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#dateInput {
+	padding: 5px;
+	margin: 3px;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: black;
+	background-color: white;
+	width: 110px;
+	text-align: center;
+}
+
+#timeInput {
+	padding: 5px;
+	text-align: center;
+	margin: 3px;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: black;
+	background-color: white;
+	width: 110px;
 }
 
 #top-container {
@@ -22,6 +51,10 @@ body {
 	border-radius: 100px;
 	width: 40px;
 	height: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin: 20px;
 }
 
 #titleButton {
@@ -35,6 +68,7 @@ body {
 	background-size: 35px 35px;
 	margin: 15px;
 	margin-bottom: 80px;
+	opacity: .2;
 }
 
 #titleButton:hover {
@@ -47,7 +81,7 @@ body {
 
 #title {
 	color: white;
-	font-family: 'Joan';
+	font-family: 'Inter';
 	font-weight: bolder;
 	font-size: 5.75rem;
 	margin-top: 10rem;
@@ -63,7 +97,7 @@ body {
 	width: 170px;
 	margin-top: -20px;
 	color: white;
-	font-family: 'Joan';
+	font-family: 'Inter';
 	font-size: 5rem;
 	display: flex;
 	justify-content: space-around;
@@ -78,8 +112,21 @@ body {
 	color: white;
 	width: 170px;
 	margin-top: 0px;
-	font-family: 'Joan';
+	font-family: 'Inter';
 	font-size: 2rem;
 	display: flex;
 	justify-content: space-around;
+}
+
+#hereMessage {
+	font-family: 'Inter';
+	color: white;
+	font-size: 5rem;
+	width: 647px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -200px;
 }
