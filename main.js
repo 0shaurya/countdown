@@ -26,7 +26,7 @@ window.onload=function() {
 		targetTime = ((dateInput.valueAsNumber+timeInput.valueAsNumber)+(currentDate.getTimezoneOffset()*60000))
 		
 		if (!(targetTime > 0 || targetTime <1)) {
-			targetTime = 1667192400000;
+			targetTime = 1687284000000;
 		}
 
 
