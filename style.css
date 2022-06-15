@@ -2,7 +2,9 @@
 
 body {
 	background-color: black;
-	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -86,6 +88,7 @@ body {
 	font-size: 5.75rem;
 	margin-top: 10rem;
 	text-align: center;
+	
 }
 
 #numbers {
