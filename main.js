@@ -16,14 +16,13 @@ window.onload=function() {
 	const button1 = document.getElementById("titleButton");
 	const button2 = document.getElementById("changeBackground");
 
-	const dateInput = document.getElementById("dateInput");
 	const timeInput = document.getElementById("timeInput");
 
 	const body = document.getElementById("body");
 
 	function write() {
 		const currentDate = new Date();
-		targetTime = ((dateInput.valueAsNumber+timeInput.valueAsNumber)+(currentDate.getTimezoneOffset()*60000))
+		targetTime = ((timeInput.valueAsNumber)+(currentDate.getTimezoneOffset()*60000))
 		
 		if (!(targetTime > 0 || targetTime <1)) {
 			targetTime = 1687284000000;
